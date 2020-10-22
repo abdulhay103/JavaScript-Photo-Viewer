@@ -27,16 +27,16 @@
         <div class="col-md-12 imageContainer">
           <ul>
             <li>
-              <img id="hoveredImage" onmouseover={ImageHandler} class="img-fluid" src="images/images1.jpg" alt="1st Image" />
+              <img id="hoveredImage" onmouseover="ImageHandler()" class="img-fluid" src="images/images1.jpg" alt="1st Image" />
             </li>
             <li>
-              <img id="hoveredImage" onmouseover={ImageHandler} class="img-fluid" src="images/images2.jpg" alt="2nd Image" />
+              <img id="hoveredImage" onmouseover="ImageHandler()" class="img-fluid" src="images/images2.jpg" alt="2nd Image" />
             </li>
             <li>
-              <img id="hoveredImage" onmouseover={ImageHandler} class="img-fluid" src="images/Working1.jpg" alt="3rd Image" />
+              <img id="hoveredImage" onmouseover="ImageHandler()" class="img-fluid" src="images/Working1.jpg" alt="3rd Image" />
             </li>
           </ul>
-          <button onclick={onclick} class="btn btn-primary" type="button">Text</button>
+          <button onclick="showImage()" class="btn btn-primary" type="button">Text</button>
         </div>
       </div>
     </div>

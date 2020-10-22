@@ -6,6 +6,7 @@ function ImageHandler() {
   targetedImage.src = "../images/images1.jpg";
 }
 
-function onclick() {
+function showImage() {
   altText.innerHTML = "Button Clicked";
+  console.log(targetedImage, altText);
 }
