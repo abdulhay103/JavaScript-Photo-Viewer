@@ -1,12 +1,14 @@
 let targetedImage = document.getElementById("targetImages");
 let altText = document.getElementById("altText");
-// altText.innerHTML = "Textt";
+// altText.innerHTML = "Text";
 
-function ImageHandler() {
-  targetedImage.src = "../images/images1.jpg";
+function ImageHandler(element) {
+  // console.log(element.src);
+  targetedImage.src = element.src;
+  altText.innerHTML = element.alt;
 }
 
-function showImage() {
+function showImage(element) {
+  console.log(element.type);
   altText.innerHTML = "Button Clicked";
-  console.log(targetedImage, altText);
 }
