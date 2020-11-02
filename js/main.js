@@ -9,6 +9,6 @@ function ImageHandler(element) {
 }
 
 function showImage(element) {
-  console.log(element.type);
+  // console.log(element.type);
   altText.innerHTML = "Button Clicked";
 }
